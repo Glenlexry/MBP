@@ -1,132 +1,206 @@
-
-//tablet to small-laptop
-@media (min-width: 768px) {
-    html,body {
-      font-size: 10px;
-    }
-
-    .navbar {
-      padding-top: 2%;
-      //bootstrap hack
-      .navbar-header {
-        display: block;
-        width: 100%;
-      }
-      .navbar-nav {
-        margin: auto;
-        display: table;
-        float: none;
-        margin-bottom: -2rem;
-      }
-      .navbar-brand {
-        max-width: 100%;
-        width: 100%;
-      }
-      //
-
-      .logo {
-        margin: auto;
-        width: 314px !important;
-      }
-    }
-
-    .icon-text {
-      max-width: 50%;
+@media (min-width: 375px) {
+  .footer {
+    #Murali-logo {
+      width: 300px;
+      height: 22px;
+      display: block;
       margin: auto;
     }
+  }
+}
+//tablet to small-laptop
+@media (min-width: 768px) {
+  body,
+  html {
+    font-size: 10px;
+  }
 
+  .page-content {
+    padding: 5rem 10rem;
+  }
 
-    .footer {
-      padding: 1rem;
-      .footer__content {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+  h2 {
+    font-size: 3rem;
+  }
 
-        #Murali-logo {
-          margin: auto;
-          width: 250px;
-        }
-      }
-      .copyright {
-        margin-left: 10% !important;
-        display: inline;
+  .navbar {
+    padding-top: 2%;
+    //bootstrap hack
+    .navbar-header {
+      display: block;
+      width: 100%;
+    }
+
+    .navbar-nav {
+      margin: auto;
+      display: table;
+      float: none;
+      margin-bottom: -1rem;
+    }
+
+    .navbar-brand {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    .logo {
+      margin: auto;
+      width: 314px !important;
+    }
+  }
+
+  .icon-text {
+    max-width: 50%;
+    margin: auto;
+  }
+
+  .italic:after {
+    left: 38%;
+    width: 200px;
+  }
+
+  .footer {
+    padding: 1rem;
+
+    .footer__content {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+
+      #Murali-logo {
+        margin: auto;
+        width: 400px;
+        height: auto;
       }
     }
+
+    .copyright {
+      margin-left: 0 !important;
+      display: inline;
+    }
+  }
+}
+@media (min-width: 1024px) {
+
+  .icon-text {
+    max-width: 90%;
+    margin: auto;
 }
 
-@media (min-width: 1024px) {
-  .footer{
-    .footer__content{
-      #Murali-logo{
-        width: 220px
+  .footer {
+    text-align: left;
+
+    img {
+      height: 1rem;
+      width: 1rem;
+    }
+
+    .copyright {
+      margin-left: 0 !important;
+    }
+
+    .footer__content {
+      #Murali-logo {
+        width: 300px;
+        margin-left: 0
       }
     }
   }
-  .footer{
-    text-align: left;
-    img {
-      height: 1.5rem;
-      width: 1.5rem;
-    }
-    .copyright{
-      margin-left: 0% !important;
-    }
+  .right-align {
+    text-align: right !important;
   }
 }
 //laptop & desktop
 @media (min-width: 1200px) {
-    html,body {
-      font-size: 10px;
-    }
-
-    .navbar-nav>li {
-      margin-left: 2rem;
-      margin-right: 2rem;
-    }
-
-    .navbar-brand {
-      padding-bottom: 6rem;
-      max-width: 80%;
-    }
-
-    .icon-text {
-      max-width: 100%;
-    }
-
-    .page-content {
-      padding: 5rem 25rem 5rem 25rem;
-    }
-
-    .footer {
-      padding: 1rem;
-      text-align: left;
-
-      .copyright {
-        margin-left: 10% !important;
-        display: inline;
-      }
-    }
-
-    .footer__content {
-      max-width: 60%;
-      margin: 3rem auto;
-
-      .social-icon {
-        margin-bottom: 3rem;
-      }
-    }
-}
-
-@media (min-width: 1440px) {
-  html,body {
+  body,
+  html {
     font-size: 10px;
   }
+
+  .navbar-nav > li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .navbar-brand {
+    padding-bottom: 6rem;
+    max-width: 80%;
+  }
+
+  .icon-text {
+    max-width: 100%;
+  }
+
+  .page-content {
+    padding: 5rem 17rem;
+  }
+
+  .footer {
+    padding: 4rem;
+    text-align: left;
+
+    .footer__content {
+      #Murali-logo {
+        width: 300px;
+      }
+    }
+
+
+    .copyright {
+      margin-left: 4% !important;
+      display: inline;
+    }
+  }
+
+  .footer__content {
+    max-width: 90%;
+    margin: 3rem auto;
+
+    .social-icon {
+      margin-bottom: 3rem;
+    }
+  }
 }
+@media (min-width: 1440px) {
+  body,
+  html {
+    font-size: 10px;
+  }
 
+  .italic:after {
+    left: 38%;
+    width: 300px;
+  }
+}
 @media only screen and (min-width: 2560px) {
-
-  html,body {
+  body,
+  html {
     font-size: 15px;
+  }
+
+  h2 {
+    font-size: 3.4rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  .page-content {
+    padding: 7rem 38rem;
+  }
+
+  .italic:after {
+    left: 38%;
+    width: 400px;
+  }
+
+  .navbar-nav > li {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .navbar {
@@ -135,24 +209,29 @@
     }
   }
 
-  .footer__content {
-    #Murali-logo {
-      width: 315px;
+  .page-content {
+    .icon-box {
+      .icon {
+        height: 190px;
+        width: auto;
+      }
     }
   }
 
-  .footer{
+  .footer {
     img {
       height: 1.5rem;
       width: 1.5rem;
     }
-    .footer__content{
+
+    .footer__content {
       .social-icon {
-      width: 50px;
-      height: 50px;
+        width: 40px;
+        height: 40px;
       }
-      #Murali-logo{
-        width: 315px
+
+      #Murali-logo {
+        width: 500px;
       }
     }
   }

@@ -46,7 +46,10 @@
   font-style: normal; }
 html, body {
   font-size: 10px;
-  font-family: "Poppins-Regular"; }
+  font-family: "Poppins-Regular";
+  line-height: 1.6;
+  max-width: 100%;
+  overflow-x: hidden; }
 
 * {
   margin: 0;
@@ -56,11 +59,12 @@ h1 {
   font-size: 3.6rem; }
 
 h2 {
-  font-size: 3.0rem;
-  font-family: "PlayfairDisplay-regular"; }
+  font-size: 2.7rem;
+  font-family: "PlayfairDisplay-regular";
+  line-height: 1.2; }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-family: "Merriweather-regular";
   color: #BB804C; }
 
@@ -68,9 +72,12 @@ h4 {
   font-size: 1.2rem; }
 
 p {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-align: center;
   color: #4e4f4f; }
+
+.block {
+  display: block !important; }
 
 .bg-brown {
   background-color: #D6D6D4; }
@@ -271,7 +278,7 @@ p {
 .banner-image {
   background-image: url("../img/MBP_About-us-03.jpg");
   background-position: 50% 50%;
-  background-size: cover;
+  background-size: auto;
   height: 246px; }
   .banner-image .banner-text {
     color: #BB804C;
@@ -289,7 +296,8 @@ p {
   width: 100%; }
 
 .italic {
-  font-family: "PlayfairDisplay-italic" !important; }
+  font-family: "PlayfairDisplay-italic" !important;
+  color: #333333; }
   .italic span {
     color: #BB804C; }
   .italic:after {
@@ -303,39 +311,45 @@ p {
     margin-left: -35px;
     background: #BB804C; }
 
+.input-group {
+  margin: auto; }
+
 .page-content {
-  padding: 3.5rem; }
+  padding: 3.5rem 1.5rem 3.5rem 1.5rem; }
   .page-content .icon-box {
-    margin-top: 5rem;
-    margin-bottom: 5rem; }
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
     .page-content .icon-box .icon {
-      height: 90px;
-      width: 90px; }
+      height: 110px;
+      width: auto; }
 
 .footer {
   color: #fff;
   text-align: center;
-  padding: 3.5rem; }
+  padding: 3.5rem 1rem 3.5rem 1rem; }
   .footer .footer__content {
     margin-top: 3rem;
     margin-bottom: 3rem; }
     .footer .footer__content .social-icon {
       width: 30px;
       height: 30px; }
+    .footer .footer__content .social-icon:hover {
+      transform: scale(1.5); }
   .footer #Murali-logo {
     width: 220px;
     height: 22px;
     display: block;
     margin: auto; }
   .footer img {
-    height: 2rem;
-    width: 2rem;
+    height: 1rem;
+    width: auto;
     display: inline; }
   .footer h4 {
     display: inline; }
   .footer h3 {
     color: #fff; }
   .footer .copyright {
-    margin: auto; }
+    margin: auto;
+    font-size: 1rem; }
 
 /*# sourceMappingURL=style.css.map */

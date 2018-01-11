@@ -83,11 +83,15 @@ $color-gold: #BB804C;
 $color-black: #000;
 $color-white: #fff;
 $color-grey: #D6D6D4;
+$color-grey-italic: #333333;
 
 
 html,body {
   font-size: 10px;
   font-family: "Poppins-Regular";
+  line-height: 1.6;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 * {
@@ -102,12 +106,13 @@ h1 {
 }
 
 h2 {
-  font-size: 3.0rem;
+  font-size: 2.7rem;
   font-family: "PlayfairDisplay-regular";
+  line-height: 1.2;
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-family: "Merriweather-regular";
   color: $color-gold;
 }
@@ -117,11 +122,14 @@ h4 {
 }
 
 p {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-align: center;
   color: #4e4f4f;
 }
 
+.block {
+  display: block !important;
+}
 //
 //Background color
 .bg-brown {
@@ -382,7 +390,7 @@ p {
 .banner-image {
   background-image: url("../img/MBP_About-us-03.jpg");
   background-position: 50% 50%;
-  background-size: cover;
+  background-size: auto;
   height: 246px;
 
   .banner-text {
@@ -409,6 +417,7 @@ p {
 
 .italic {
   font-family: "PlayfairDisplay-italic" !important;
+  color: $color-grey-italic;
 
   span {
     color: $color-gold;
@@ -426,17 +435,21 @@ p {
     background: $color-gold;
   }
 }
+//bootstrap hack
+.input-group {
+  margin: auto;
+}
 
 .page-content {
-  padding: 3.5rem;
+  padding: 3.5rem 1.5rem 3.5rem 1.5rem;
 
   .icon-box {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 
     .icon {
-      height: 90px;
-      width: 90px;
+      height: 110px;
+      width: auto;
     }
   }
 }
@@ -444,7 +457,7 @@ p {
 .footer {
   color: $color-white;
   text-align: center;
-  padding: 3.5rem;
+  padding: 3.5rem 1rem 3.5rem 1rem;
 
   .footer__content {
     margin-top: 3rem;
@@ -454,6 +467,9 @@ p {
       width: 30px;
       height: 30px;
     }
+    .social-icon:hover {
+      transform: scale(1.5);
+    }
   }
   #Murali-logo {
     width: 220px;
@@ -462,8 +478,8 @@ p {
     margin: auto;
   }
   img {
-    height: 2rem;
-    width: 2rem;
+    height: 1rem;
+    width: auto;
     display: inline;
   }
   h4 {
@@ -474,5 +490,6 @@ p {
   }
   .copyright {
     margin: auto;
+    font-size: 1rem;
   }
 }
