@@ -1,33 +1,83 @@
 @font-face {
-  font-family: Merriweather-Regular;
-  src: url(../Fonts/Merriweather-Regular.ttf) format('truetype');
-};
-
-@font-face {
-  font-family: OpenSans-Bold;
-  src: url(../Fonts/OpenSans-Bold_0.ttf) format('truetype');
-};
-
-@font-face {
-  font-family: OpenSans-Regular;
-  src: url(../Fonts/OpenSans-Regular.ttf) format('truetype');
-};
-
-@font-face {
-  font-family: PlayfairDisplay-italic;
-  src: url(../Fonts/PlayfairDisplay-italic.otf) format("opentype");
+  font-family: 'Merriweather-Regular';
+  src: url('../Fonts/Merriweather-Regular.eot');
+  src: url('../Fonts/Merriweather-Regular.woff2') format('woff2'),
+       url('../Fonts/Merriweather-Regular.woff') format('woff'),
+       url('../Fonts/Merriweather-Regular.ttf') format('truetype'),
+       url('../Fonts/Merriweather-Regular.svg#Merriweather-Regular') format('svg'),
+       url('../Fonts/Merriweather-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: PlayfairDisplay-regular;
-  src: url(../Fonts/PlayfairDisplay-regular.otf) format("opentype");
+  font-family: 'OpenSans-Bold';
+  src: url('../Fonts/OpenSans-Bold.woff') format('woff'),
+       url('../Fonts/OpenSans-Bold.ttf') format('truetype'),
+       url('../Fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: Poppins-Regular;
-  src: url(../Fonts/Poppins-Regular.ttf) format('truetype');
+  font-family: 'OpenSans-Bold_0';
+  src: url('../Fonts/OpenSans-Bold_0.eot');
+  src: url('../Fonts/OpenSans-Bold_0.woff2') format('woff2'),
+       url('../Fonts/OpenSans-Bold_0.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('../Fonts/OpenSans-Regular.eot');
+  src: url('../Fonts/OpenSans-Regular.woff2') format('woff2'),
+       url('../Fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../Fonts/OpenSans.woff') format('woff'),
+       url('../Fonts/OpenSans.ttf') format('truetype'),
+       url('../Fonts/OpenSans.svg#OpenSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  src: url('../Fonts/PlayfairDisplay-Italic.eot');
+  src: url('../Fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
+       url('../Fonts/PlayfairDisplay-Italic.woff') format('woff'),
+       url('../Fonts/PlayfairDisplay-Italic.ttf') format('truetype'),
+       url('../Fonts/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg'),
+       url('../Fonts/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('../Fonts/PlayfairDisplay-Regular.eot');
+  src: url('../Fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+       url('../Fonts/PlayfairDisplay-Regular.woff') format('woff'),
+       url('../Fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
+       url('../Fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg'),
+       url('../Fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../Fonts/Poppins-Regular.eot');
+  src: url('../Fonts/Poppins-Regular.woff2') format('woff2'),
+       url('../Fonts/Poppins-Regular.woff') format('woff'),
+       url('../Fonts/Poppins-Regular.ttf') format('truetype'),
+       url('../Fonts/Poppins-Regular.svg#Poppins-Regular') format('svg'),
+       url('../Fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 $color-background-white: #FFFFFF;
 $color-gold: #BB804C;
 $color-black: #000;
