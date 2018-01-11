@@ -80,6 +80,10 @@
   html {
     font-size: 10px; }
 
+  .banner-image {
+    background-size: cover;
+    height: 246px; }
+
   .navbar-nav > li {
     margin-left: 1rem;
     margin-right: 1rem; }
@@ -90,9 +94,6 @@
 
   .icon-text {
     max-width: 100%; }
-
-  .page-content {
-    padding: 5rem 35rem; }
 
   .footer {
     padding: 4rem;

@@ -356,5 +356,7 @@ p {
   .footer .copyright {
     margin: auto;
     font-size: 1rem; }
+  .footer .form-control {
+    box-shadow: none; }
 
 /*# sourceMappingURL=style.css.map */
