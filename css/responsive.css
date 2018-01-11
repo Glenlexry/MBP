@@ -24,8 +24,7 @@
     margin: auto; }
 
   .footer {
-    padding: 1rem;
-    text-align: left; }
+    padding: 1rem; }
     .footer .footer__content {
       margin-top: 2rem;
       margin-bottom: 2rem; }
@@ -39,11 +38,13 @@
   .footer .footer__content #Murali-logo {
     width: 220px; }
 
-  .footer img {
-    height: 1.5rem;
-    width: 1.5rem; }
-  .footer .copyright {
-    margin-left: 0% !important; } }
+  .footer {
+    text-align: left; }
+    .footer img {
+      height: 1.5rem;
+      width: 1.5rem; }
+    .footer .copyright {
+      margin-left: 0% !important; } }
 @media (min-width: 1200px) {
   html, body {
     font-size: 10px; }
@@ -93,6 +94,8 @@
     width: 1.5rem; }
   .footer .footer__content .social-icon {
     width: 50px;
-    height: 50px; } }
+    height: 50px; }
+  .footer .footer__content #Murali-logo {
+    width: 315px; } }
 
 /*# sourceMappingURL=responsive.css.map */

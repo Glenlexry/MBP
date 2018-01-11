@@ -38,7 +38,6 @@
 
     .footer {
       padding: 1rem;
-      text-align: left;
       .footer__content {
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -64,6 +63,7 @@
     }
   }
   .footer{
+    text-align: left;
     img {
       height: 1.5rem;
       width: 1.5rem;
@@ -150,6 +150,9 @@
       .social-icon {
       width: 50px;
       height: 50px;
+      }
+      #Murali-logo{
+        width: 315px
       }
     }
   }
