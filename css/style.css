@@ -245,8 +245,7 @@ p {
   background-position: 50% 50%;
   background-size: cover;
   height: 246px;
-  -webkit-animation: appear 2s forwards 1;
-          animation: appear 2s forwards 1; }
+  animation: appear 2s forwards 1; }
   .banner-image .banner-text {
     color: #BB804C;
     position: relative;
@@ -297,7 +296,7 @@ p {
       width: 30px;
       height: 30px; }
   .footer #Murali-logo {
-    width: 250px;
+    width: 220px;
     height: 22px;
     display: block;
     margin: auto; }
