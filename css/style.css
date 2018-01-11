@@ -1,0 +1,315 @@
+@font-face {
+  font-family: Merriweather-Regular;
+  src: url(../Fonts/Merriweather-Regular.ttf) format("truetype"); }
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../Fonts/OpenSans-Bold_0.ttf) format("truetype"); }
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../Fonts/OpenSans-Regular.ttf) format("truetype"); }
+@font-face {
+  font-family: PlayfairDisplay-italic;
+  src: url(../Fonts/PlayfairDisplay-italic.otf) format("opentype"); }
+@font-face {
+  font-family: PlayfairDisplay-regular;
+  src: url(../Fonts/PlayfairDisplay-regular.otf) format("opentype"); }
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../Fonts/Poppins-Regular.ttf) format("truetype"); }
+html, body {
+  font-size: 10px;
+  font-family: "Poppins-Regular"; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-size: 3.6rem; }
+
+h2 {
+  font-size: 3.0rem;
+  font-family: "PlayfairDisplay-regular"; }
+
+h3 {
+  font-size: 1.4rem;
+  font-family: "Merriweather-regular";
+  color: #BB804C; }
+
+h4 {
+  font-size: 1.2rem; }
+
+p {
+  font-size: 1.7rem;
+  text-align: center;
+  color: #4D4E4E; }
+
+.bg-brown {
+  background-color: #D6D6D4; }
+
+.bg-black {
+  background-color: #000; }
+
+.m-top-0,
+.m-top-10,
+.m-top-15,
+.m-top-20,
+.m-top-25,
+.m-top-30,
+.m-top-35,
+.m-top-40,
+.m-top-50,
+.m-top-80,
+.m-top-100,
+.m-bot-0,
+.m-bot-10,
+.m-bot-15,
+.m-bot-20,
+.m-bot-25,
+.m-bot-30,
+.m-bot-35,
+.m-bot-40,
+.m-bot-50,
+.m-bot-80,
+.m-bot-100 {
+  display: inline-block; }
+
+.m-top-0 {
+  margin-top: 0 !important; }
+
+.m-top-5 {
+  margin-top: .5rem !important; }
+
+.m-top-10 {
+  margin-top: 1rem !important; }
+
+.m-top-15 {
+  margin-top: 1.5rem !important; }
+
+.m-top-20 {
+  margin-top: 2rem !important; }
+
+.m-top-25 {
+  margin-top: 2.5rem !important; }
+
+.m-top-30 {
+  margin-top: 3rem !important; }
+
+.m-top-35 {
+  margin-top: 3.5rem !important; }
+
+.m-top-40 {
+  margin-top: 4rem !important; }
+
+.m-top-50 {
+  margin-top: 5rem !important; }
+
+.m-top-80 {
+  margin-top: 8rem !important; }
+
+.m-top-100 {
+  margin-top: 10rem !important; }
+
+/*margin bottom*/
+.m-bot-0 {
+  margin-bottom: 0 !important; }
+
+.m-bot-10 {
+  margin-bottom: 1rem !important; }
+
+.m-bot-15 {
+  margin-bottom: 1.5rem !important; }
+
+.m-bot-20 {
+  margin-bottom: 2rem !important; }
+
+.m-bot-25 {
+  margin-bottom: 2.5rem !important; }
+
+.m-bot-30 {
+  margin-bottom: 3rem !important; }
+
+.m-bot-35 {
+  margin-bottom: 3.5rem !important; }
+
+.m-bot-40 {
+  margin-bottom: 4.0rem !important; }
+
+.m-bot-50 {
+  margin-bottom: 5rem !important; }
+
+.m-bot-80 {
+  margin-bottom: 8rem !important; }
+
+.m-bot-100 {
+  margin-bottom: 10rem !important; }
+
+.m-left-10 {
+  margin-left: 2rem !important; }
+
+.m-s-10 {
+  margin-right: 1rem !important;
+  margin-left: 1rem !important; }
+
+/*padding top*/
+.p-top-0 {
+  padding-top: 0 !important; }
+
+.p-top-10 {
+  padding-top: 1rem !important; }
+
+.p-top-15 {
+  padding-top: 1.5rem !important; }
+
+.p-top-20 {
+  padding-top: 2rem !important; }
+
+.p-top-25 {
+  padding-top: 2.5rem !important; }
+
+.p-top-30 {
+  padding-top: 3rem !important; }
+
+.p-top-35 {
+  padding-top: 3.5rem !important; }
+
+.p-top-40 {
+  padding-top: 4rem !important; }
+
+.p-top-50 {
+  padding-top: 5rem !important; }
+
+.p-top-80 {
+  padding-top: 8rem !important; }
+
+.p-top-100 {
+  padding-top: 10rem !important; }
+
+.p-tb-10 {
+  padding: 1rem 0 !important; }
+
+.p-tb-20 {
+  padding: 2rem 0 !important; }
+
+.p-tb-30 {
+  padding: 3rem 0 !important; }
+
+.p-tb-50 {
+  padding: 5rem 0 !important; }
+
+.p-tb-100 {
+  padding: 10rem 0 !important; }
+
+.p-tb-150 {
+  padding: 15rem 0 !important; }
+
+.p-tb-200 {
+  padding: 20rem 0 !important; }
+
+.p-top-0 {
+  padding-top: 0 !important; }
+
+.p-bot-0 {
+  padding-bottom: 0 !important; }
+
+.p-bot-100 {
+  padding-bottom: 10rem !important; }
+
+.p-s-30 {
+  padding-left: 3rem;
+  padding-right: 3rem; }
+
+.active-link {
+  color: #BB804C; }
+
+.navbar p:hover {
+  color: #BB804C; }
+
+.navbar {
+  padding-top: 5%;
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+  margin-bottom: 0; }
+  .navbar .navbar-brand {
+    max-width: 80%; }
+  .navbar .logo {
+    max-width: 100%; }
+  .navbar .navbar-toggle {
+    border-color: #fff; }
+  .navbar a {
+    font-family: "Merriweather-Regular" !important;
+    text-align: center; }
+
+.banner-image {
+  background-image: url("../img/MBP_About-us-03.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 246px;
+  -webkit-animation: appear 2s forwards 1;
+          animation: appear 2s forwards 1; }
+  .banner-image .banner-text {
+    color: #BB804C;
+    position: relative;
+    top: 32%; }
+    .banner-image .banner-text h1 {
+      color: #BB804C;
+      font-family: "PlayfairDisplay-regular" !important; }
+    .banner-image .banner-text h3 {
+      color: #fff; }
+
+.page-content__header {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  width: 100%; }
+
+.italic {
+  font-family: "PlayfairDisplay-italic" !important; }
+  .italic span {
+    color: #BB804C; }
+  .italic:after {
+    content: " ";
+    position: relative;
+    display: block;
+    bottom: -40px;
+    left: 50%;
+    width: 83px;
+    height: 2px;
+    margin-left: -35px;
+    background: #BB804C; }
+
+.page-content {
+  padding: 3.5rem; }
+  .page-content .icon-box {
+    margin-top: 5rem;
+    margin-bottom: 5rem; }
+    .page-content .icon-box .icon {
+      height: 90px;
+      width: 90px; }
+
+.footer {
+  color: #fff;
+  text-align: center;
+  padding: 3.5rem; }
+  .footer .footer__content {
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
+    .footer .footer__content .social-icon {
+      width: 30px;
+      height: 30px; }
+  .footer #Murali-logo {
+    width: 250px;
+    height: 22px;
+    display: block;
+    margin: auto; }
+  .footer img {
+    height: 2rem;
+    width: 2rem;
+    display: inline; }
+  .footer h4 {
+    display: inline; }
+  .footer h3 {
+    color: #fff; }
+  .footer .copyright {
+    margin: auto; }
+
+/*# sourceMappingURL=style.css.map */
