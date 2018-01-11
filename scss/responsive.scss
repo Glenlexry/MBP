@@ -16,7 +16,7 @@
   }
 
   .page-content {
-    padding: 5rem 10rem;
+    padding: 5rem 5rem;
   }
 
   h2 {
@@ -84,8 +84,10 @@
   .icon-text {
     max-width: 90%;
     margin: auto;
-}
-
+  }
+  .page-content {
+    padding: 5rem 13rem;
+  }
   .footer {
     text-align: left;
 
@@ -102,6 +104,9 @@
       #Murali-logo {
         width: 300px;
         margin-left: 0
+      }
+      .social-icon:nth-child(1) {
+        margin-left: 0px;
       }
     }
   }
@@ -131,7 +136,7 @@
   }
 
   .page-content {
-    padding: 5rem 20rem;
+    padding: 5rem 35rem;
   }
 
   .footer {
@@ -165,10 +170,17 @@
   html {
     font-size: 10px;
   }
-
+  .page-content {
+    padding: 5rem 20rem;
+  }
   .italic:after {
     left: 38%;
     width: 300px;
+  }
+}
+@media (min-width: 1600px) {
+  .page-content {
+    padding: 5rem 35rem;
   }
 }
 @media only screen and (min-width: 2560px) {
@@ -189,10 +201,6 @@
     font-size: 1.5rem;
   }
 
-  .page-content {
-    padding: 7rem 38rem;
-  }
-
   .italic:after {
     left: 38%;
     width: 400px;
@@ -210,6 +218,7 @@
   }
 
   .page-content {
+    padding: 5rem 43rem;
     .icon-box {
       .icon {
         height: 190px;
