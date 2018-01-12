@@ -15,12 +15,13 @@
     font-size: 10px;
   }
 
-  .page-content {
-    padding: 5rem 5rem;
-  }
-
   h2 {
     font-size: 3rem;
+  }
+
+//botstrap hack
+  .container {
+    margin-bottom: 2rem;
   }
 
   .navbar {
@@ -55,7 +56,7 @@
   }
 
   .italic:after {
-    left: 38%;
+    left: 41%;
     width: 200px;
   }
 
@@ -85,8 +86,12 @@
     max-width: 90%;
     margin: auto;
   }
-  .page-content {
-    padding: 5rem 13rem;
+  .nav>li {
+    margin: 0 1.5rem !important;
+  }
+  .italic:after {
+    left: 43%;
+    width: 200px;
   }
   .footer {
     text-align: left;
@@ -124,11 +129,10 @@
   .banner-image {
     background-size: cover;
     height: 246px;
-}
+  }
 
-  .navbar-nav > li {
-    margin-left: 1rem;
-    margin-right: 1rem;
+  .nav>li {
+    margin: 0 2.5rem !important;
   }
 
   .navbar-brand {
@@ -171,17 +175,9 @@
   html {
     font-size: 10px;
   }
-  .page-content {
-    padding: 5rem 20rem;
-  }
   .italic:after {
-    left: 38%;
+    left: 40%;
     width: 300px;
-  }
-}
-@media (min-width: 1600px) {
-  .page-content {
-    padding: 5rem 35rem;
   }
 }
 @media only screen and (min-width: 2560px) {
@@ -203,13 +199,13 @@
   }
 
   .italic:after {
-    left: 38%;
+    left: 36%;
     width: 400px;
   }
 
-  .navbar-nav > li {
-    margin-left: 2rem;
-    margin-right: 2rem;
+
+  .nav>li {
+    margin: 0 1.5rem !important;
   }
 
   .navbar {
@@ -218,15 +214,13 @@
     }
   }
 
-  .page-content {
-    padding: 5rem 43rem;
     .icon-box {
       .icon {
         height: 190px;
         width: auto;
       }
     }
-  }
+
 
   .footer {
     img {

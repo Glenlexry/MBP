@@ -9,11 +9,11 @@
   html {
     font-size: 10px; }
 
-  .page-content {
-    padding: 5rem 5rem; }
-
   h2 {
     font-size: 3rem; }
+
+  .container {
+    margin-bottom: 2rem; }
 
   .navbar {
     padding-top: 2%; }
@@ -37,7 +37,7 @@
     margin: auto; }
 
   .italic:after {
-    left: 38%;
+    left: 41%;
     width: 200px; }
 
   .footer {
@@ -57,8 +57,12 @@
     max-width: 90%;
     margin: auto; }
 
-  .page-content {
-    padding: 5rem 13rem; }
+  .nav > li {
+    margin: 0 1.5rem !important; }
+
+  .italic:after {
+    left: 43%;
+    width: 200px; }
 
   .footer {
     text-align: left; }
@@ -84,9 +88,8 @@
     background-size: cover;
     height: 246px; }
 
-  .navbar-nav > li {
-    margin-left: 1rem;
-    margin-right: 1rem; }
+  .nav > li {
+    margin: 0 2.5rem !important; }
 
   .navbar-brand {
     padding-bottom: 6rem;
@@ -114,15 +117,9 @@
   html {
     font-size: 10px; }
 
-  .page-content {
-    padding: 5rem 20rem; }
-
   .italic:after {
-    left: 38%;
+    left: 40%;
     width: 300px; } }
-@media (min-width: 1600px) {
-  .page-content {
-    padding: 5rem 35rem; } }
 @media only screen and (min-width: 2560px) {
   body,
   html {
@@ -138,22 +135,19 @@
     font-size: 1.5rem; }
 
   .italic:after {
-    left: 38%;
+    left: 36%;
     width: 400px; }
 
-  .navbar-nav > li {
-    margin-left: 2rem;
-    margin-right: 2rem; }
+  .nav > li {
+    margin: 0 1.5rem !important; }
 
   .navbar .logo {
     -webkit-transform: scale(1.4);
             transform: scale(1.4); }
 
-  .page-content {
-    padding: 5rem 43rem; }
-    .page-content .icon-box .icon {
-      height: 190px;
-      width: auto; }
+  .icon-box .icon {
+    height: 190px;
+    width: auto; }
 
   .footer img {
     height: 1.5rem;
