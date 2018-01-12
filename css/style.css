@@ -399,7 +399,8 @@ input::-webkit-input-placeholder {
   width: 15px;
   padding-left: 10px;
   color: transparent;
-  cursor: pointer; }
+  cursor: pointer;
+  display: block; }
 
 #demo-2 input[type=search]:hover {
   background-color: #fff; }
